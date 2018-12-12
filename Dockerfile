@@ -1,5 +1,5 @@
 # Base image
-FROM mongo-express:0.45
+FROM mongo-express:0.49.0
 
 # Base dependencies
 RUN apt-get update \
