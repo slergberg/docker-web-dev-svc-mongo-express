@@ -2,10 +2,8 @@
 FROM mongo-express:0.49.0
 
 # Base dependencies
-RUN apt-get update \
-  && apt-get install -y \
-    curl \
-  && rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache \
+  curl
 
 # Expose ports
 EXPOSE 8081
