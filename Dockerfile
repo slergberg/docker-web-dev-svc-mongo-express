@@ -1,5 +1,5 @@
 # Base image
-FROM mongo-express:0.49.0
+FROM mongo-express:0.54.0
 
 # Base dependencies
 RUN apk add --no-cache \
